@@ -8,8 +8,8 @@ rosservice call /spawn $i $j 1 ""
 done
 done
 
-rosrun ros_start vel_publisher.py /mobile_base/commands/velocity:=/turtle1/cmd_vel
+rosrun ros_start vel_pub.py /mobile_base/commands/velocity:=/turtle1/cmd_vel
 rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -- '[0.0, 0.0, 0.0]' '[0.0, 0.0, 100]'
 
-rosrun ros_start vel_publisher.py /mobile_base/commands/velocity:=/turtle1/cmd_vel
+rosrun ros_start vel_pub.py /mobile_base/commands/velocity:=/turtle1/cmd_vel
 
