@@ -2,4 +2,4 @@
 Copyright (c) 2017 Yuya Hirata
 Released under the MIT license
 これはROSを用いてturtlesimサンプルにカメを大量に出しまくるコードをシェルスクリプトにまとめたものである。
-ros用ワークスペース下にwara.shとvel_pub.pyを置いてwara.shを実行してください。
+ros用ワークスペース下にwara.shとvel_pub.pyを置いてrosrun turtlesim turtlesim_nodeを実行した後にwara.shを実行してください。カメが大量に発生して最初から出ているカメが少し動きます。この時の状態はvel_pub.pyによって表示されます。
